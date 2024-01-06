@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./card.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+.profileCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 370px;
+  width: 100%;
+  
+  background: #fff;
+  border-radius: 24px;
+  padding: 25px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  position: relative;
+}
+.image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #4070f4;
+  padding: 3px;
+  margin-bottom: 10px;
+
+}
+.image .profile-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+.profileCard .text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+.text-box .name{
+  font-size: 22px;
+  font-weight: 500;
+}
+.text-box .job{
+  font-size: 15px;
+  font-weight: 400;
+}
+.profileCard .midia-buttom{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  
+  
+}
+.profileCard::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 36%;
+  width: 100%;
+  border-radius: 24px 24px 0px 0px;
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHwq0ENgwt0DIq_70NLh1Lrss8P0o3yfWxQ&usqp=CAU);
+
+}
+.midia-buttom .link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #fff;
+  height: 34px;
+  width: 34px;
+  margin: 0,8px;
+  margin: 7px;
+background-color: #4070f4;
+  text-decoration: none;
+}
+.profileCard .buttons{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+
+}
+.buttons .button{
+  text-decoration: dotted;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500px;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 24px;
+  margin: 0 10px;
+  background-color: #4070f4;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.buttons .button:hover{
+  background-color: #0e4bf1;
+}
+.profileCard .alldata{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.data{
+  display: flex;
+  align-items: center;
+  color: #333;
+  margin: 2px;
+  padding: 0 10px;
+  border-right: 2px solid#e7e7e7e;
+}
+.data i{
+  font-size: 18px;
+}
+.data:last-child{
+  border-right: none;
+  margin-right: 6px;
+}
+  </style>
+  
+</head>
+<body>
+  <div class="profileCard">
+    <div class="image">
+    <img src="./20230901_164746.png" alt="" class="profile-image">
+  </div>
+  <div class="text-box">
+    <span class="name">KESHAV KUMAR</span>
+    <span class="job">software developer</span>
+  </div>
+  <div class="midia-buttom">
+    <a href="#" style="background: #4267b2" class="link">
+      <i class='bx bxl-facebook-circle'></i>
+    </a>
+    <a href="#" style="background: #ef4c82" class="link">
+      <i class='bx bxl-instagram-alt' ></i>
+    </a>
+    <a href="#" style="background:#0552ec" class="link">
+      <i class='bx bxl-twitter'></i>
+    </a>
+    <a href="#" style="background: #e1306c" class="link">
+      <i class='bx bxl-youtube'></i>
+    </a>
+  </div>
+  <div class="buttons">
+    <button class="button"><a href=""> Subscribe </a></button>
+    <button class="button"><a href=""> Message </a></button>
+  </div>
+  <div class="alldata">
+<div class="data">
+  <i class='bx bx-heart' ></i>
+  <span class="number">103k</span>
+</div>
+<div class="data">
+  <i class='bx bx-message' ></i>
+    <span class="number">60k</span>
+</div>
+<div class="data">
+  <i class='bx bxs-share-alt' ></i>
+    <span class="number">40k</span>
+</div>
+   
+    
+    
+    
+    
+
+  </div>
+  </div>
+ 
+  
+  
+</body>
+</html>
