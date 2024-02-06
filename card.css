@@ -13,7 +13,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f4f4f4;
+  background-color: #a8e0dd;
 }
 .profileCard{
   display: flex;
@@ -98,7 +98,7 @@ background-color: #4070f4;
 
 }
 .buttons .button{
-  text-decoration: dotted;
+ text-decoration: double;
   color: #fff;
   font-size: 14px;
   font-weight: 500px;
@@ -112,7 +112,7 @@ background-color: #4070f4;
 
 }
 .buttons .button:hover{
-  background-color: #0e4bf1;
+  background-color: #0ef156;
 }
 .profileCard .alldata{
   display: flex;
@@ -125,7 +125,7 @@ background-color: #4070f4;
   color: #333;
   margin: 2px;
   padding: 0 10px;
-  border-right: 2px solid#e7e7e7e;
+  border-right: 2px solid#831212;
 }
 .data i{
   font-size: 18px;
